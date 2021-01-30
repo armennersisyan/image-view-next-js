@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Test from '../components/test'
+import Left from '../components/Left'
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
         <title>Image View</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Test />
+      <Left />
     </div>
   )
 }
