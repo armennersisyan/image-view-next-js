@@ -1,11 +1,11 @@
 import * as React from 'react'
 import { User } from './types'
 
-type Props = {
+type PropTypes = {
   items?: User[]
 }
 
-const Test = ({ items }: Props) => (
+const Left = ({ items }: PropTypes) => (
   <ul>
     {[1, 2, 3, 4].map((item) => (
       <li key={item}>{item}</li>
@@ -13,4 +13,4 @@ const Test = ({ items }: Props) => (
   </ul>
 )
 
-export default Test
+export default Left
